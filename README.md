@@ -48,7 +48,7 @@ The application follows a clean MVVM architecture:
    If a color value is missing from the JSON or a hex color cannot be decoded correctly, the app automatically falls back to a suitable default color. This prevents UI rendering issues and ensures the form remains usable even when theme data is incomplete or invalid.
 
 6. **Theme-Aware UI Styling**
-   To improve visual consistency, I added custom styling for active text fields, placeholder text, and character count indicators. These colors are automatically derived from the rendered theme to maintain readability and provide a better user experience across different theme configurations.s
+   To improve visual consistency, I added custom styling for active text fields, placeholder text, and character count indicators. These colors are automatically derived from the rendered theme to maintain readability and provide a better user experience across different theme configurations.
 
     
 ## Improvements
